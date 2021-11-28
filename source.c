@@ -25,7 +25,8 @@ int main() {
 
         for (int j = 0; j < n; j++) {
 
-            if ((i == j) && (arr[i * n + j] != 0)) {    //проверка диагонали
+            if ((i == j) && (arr[i * n + j] != 0)) {             
+                printf(point %d has loop\n, (i + 1));
                 k++;
             }
         }
@@ -39,7 +40,7 @@ int main() {
     
        
 
-    // визуализация //
+    // ГўГЁГ§ГіГ Г«ГЁГ§Г Г¶ГЁГї //
 
     FILE* file;
 
